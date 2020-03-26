@@ -55,6 +55,6 @@ module.exports = {
 
     await connection('incidents').where('id', id).delete()
 
-    return res.status(204).json({ message: 'Registro deletado com sucesso.'})
+    return res.status(204).json()
   }
 }
