@@ -49,7 +49,7 @@ export default function NewIncident() {
 
           <Link className='back-link' to='/profile'>
             <FiArrowLeft size={16} color='#E02041' />
-            Voltar para home
+            Voltar para casos cadastrados
           </Link>
 
         </section>
@@ -71,7 +71,7 @@ export default function NewIncident() {
             onChange={e => setValue(e.target.value)}
           />
 
-          <button className='button' type='submit'>Cadstrar</button>
+          <button className='button' type='submit'>Cadastrar</button>
         </form>
       </div>
     </div>
