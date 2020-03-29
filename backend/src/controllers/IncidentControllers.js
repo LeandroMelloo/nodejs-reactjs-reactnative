@@ -6,8 +6,6 @@ module.exports = {
 
     const [count] = await connection('incidents').count()
 
-    console.log(count)
-
     const incidents = await connection('incidents')
       .join('ongs', 'ongs.id', '=', 'incidents.ong_id')
       .limit(5)
@@ -55,6 +53,6 @@ module.exports = {
 
     await connection('incidents').where('id', id).delete()
 
-    return res.status(204).json()
+    return res.json({ message: 'Incident deletado com sucesso.'})
   }
 }
