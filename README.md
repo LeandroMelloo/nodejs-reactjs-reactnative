@@ -1,2 +1,2 @@
-# nodejs_reactjs_reactnative
-Desenvolvimento de uma aplicação com NodeJS &amp; ReactJS &amp; ReactNative
+# nodejs-reactjs-reactnative
+Desenvolvimento de uma aplicação com NodeJS, ReactJS e ReactNative
